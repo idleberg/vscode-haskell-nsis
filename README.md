@@ -6,8 +6,7 @@
 [![GNU General Public License](https://flat.badgen.net/badge/license/GPL%20v2/orange)](http://www.gnu.org/licenses/gpl-2.0.html)
 [![GitHub](https://flat.badgen.net/github/release/idleberg/vscode-haskell-nsis)](https://github.com/idleberg/vscode-haskell-nsis/releases)
 [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs-short/idleberg.haskell-nsis.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=idleberg.haskell-nsis)
-[![CircleCI](https://flat.badgen.net/circleci/github/idleberg/vscode-haskell-nsis)](https://circleci.com/gh/idleberg/vscode-haskell-nsis)
-[![David](https://flat.badgen.net/david/dep/idleberg/vscode-haskell-nsis)](https://david-dm.org/idleberg/vscode-haskell-nsis)
+[![CI](https://img.shields.io/github/workflow/status/idleberg/vscode-haskell-nsis/CI?style=flat-square)](https://github.com/idleberg/vscode-haskell-nsis/actions)
 
 Snippets for [Haskell NSIS](https://hackage.haskell.org/package/nsis)
 
