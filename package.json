@@ -52,9 +52,6 @@
         "Snippets",
         "Other"
     ],
-    "activationEvents": [
-        "onLanguage:haskell"
-    ],
     "contributes": {
         "snippets": [
             {
