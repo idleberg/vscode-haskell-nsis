@@ -68,6 +68,6 @@
         ]
     },
     "lint-staged": {
-        "*.(ts|json|yml)": "eslint --cache --fix"
+        "*.(json|yml|yaml)": "eslint --cache --fix"
     }
 }
