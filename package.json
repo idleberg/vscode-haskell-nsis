@@ -1,0 +1,75 @@
+{
+    "name": "haskell-nsis",
+    "displayName": "Haskell NSIS",
+    "description": "Haskell snippets for NSIS",
+    "version": "0.0.0",
+    "publisher": "idleberg",
+    "license": "MIT OR GPL-2.0",
+    "author": {
+        "name": "Jan T. Sott",
+        "url": "http://github.com/idleberg"
+    },
+    "scripts": {
+        "build": "gulp",
+        "lint:json": "eslint --ext .json --ignore-path .gitignore",
+        "lint:ts": "eslint ./src --ignore-path .gitignore",
+        "lint:yaml": "eslint --ext .yaml --ext .yml --ignore-path .gitignore",
+        "lint": "npm-run-all --parallel lint:*",
+        "prepare": "husky install",
+        "test": "npm run lint"
+    },
+    "keywords": [
+        "nsis",
+        "haskell-nsis"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/idleberg/vscode-haskell-nsis"
+    },
+    "homepage": "https://github.com/idleberg/vscode-haskell-nsis#readme",
+    "bugs": {
+        "url": "https://github.com/idleberg/vscode-haskell-nsis/issues"
+    },
+    "main": "./lib/extension",
+    "extensionDependencies": [
+        "idleberg.nsis"
+    ],
+    "dependencies": {},
+    "devDependencies": {
+        "eslint": "^8.2.0",
+        "eslint-plugin-json": "^3.1.0",
+        "eslint-plugin-yaml": "^0.5.0",
+        "gulp": "^4.0.2",
+        "gulp-raster": "^0.2.0",
+        "gulp-rename": "^2.0.0",
+        "husky": "^7.0.4",
+        "lint-staged": "^12.3.7",
+        "npm-run-all": "^4.1.5"
+    },
+    "icon": "images/logo.png",
+    "galleryBanner": {
+        "color": "#ffffff",
+        "theme": "light"
+    },
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Snippets",
+        "Other"
+    ],
+    "activationEvents": [
+        "onLanguage:haskell"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "haskell",
+                "path": "./snippets/core.Haskell.json"
+            }
+        ]
+    },
+    "lint-staged": {
+        "*.(ts|json|yml)": "eslint --cache --fix"
+    }
+}
