@@ -28,6 +28,9 @@
     "bugs": {
         "url": "https://github.com/idleberg/vscode-haskell-nsis/issues"
     },
+    "extensionDependencies": [
+        "idleberg.nsis"
+    ],
     "dependencies": {},
     "devDependencies": {
         "eslint": "^8.2.0",
