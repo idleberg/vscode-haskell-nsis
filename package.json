@@ -68,8 +68,5 @@
 								"path": "./snippets/core.Haskell.json"
 						}
 				]
-		},
-		"lint-staged": {
-				"*.(json|yml|yaml)": "eslint --cache --fix"
 		}
 }
