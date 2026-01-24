@@ -1,72 +1,73 @@
 {
-		"name": "haskell-nsis",
-		"displayName": "Haskell NSIS",
-		"description": "Haskell snippets for NSIS",
-		"version": "1.1.0",
-		"publisher": "idleberg",
-		"license": "MIT",
-		"author": {
-				"name": "Jan T. Sott",
-				"url": "http://github.com/idleberg"
-		},
-		"scripts": {
-			"compile": "npm run build",
-			"build": "sharp resize 1024 1024 --input \"src/logo.svg\" --output resources/logo.png",
-			"dev": "npm run start",
-			"lint": "biome check",
-			"prepare": "lefthook install",
-			"publish:ovsx": "ovsx publish --no-dependencies",
-			"publish:vsce": "vsce publish --githubBranch main --no-dependencies",
-			"test": "echo \"no tests yet\" && exit 0",
-			"vscode:prepublish": "npm run build"
-		},
-		"keywords": [
-				"nsis",
-				"haskell-nsis"
-		],
-		"repository": {
-				"type": "git",
-				"url": "https://github.com/idleberg/vscode-haskell-nsis"
-		},
-		"homepage": "https://github.com/idleberg/vscode-haskell-nsis#readme",
-		"bugs": {
-				"url": "https://github.com/idleberg/vscode-haskell-nsis/issues"
-		},
-		"extensionDependencies": [
-				"idleberg.nsis"
-		],
-		"dependencies": {},
-		"devDependencies": {
-			"@commitlint/cli": "^20.2.0",
-			"@commitlint/config-conventional": "^20.2.0",
-			"@idleberg/configs": "^0.4.1",
-			"@nsis/logo": "0.1.1",
-			"@types/micromatch": "^4.0.10",
-			"@types/node": "^24.7.0",
-			"@types/vscode": "1.85.0",
-			"@types/which": "^3.0.4",
-			"concurrently": "^9.2.1",
-			"ovsx": "^0.10.7",
-			"sharp-cli": "^5.2.0"
-		},
-		"icon": "resources/logo.png",
-		"galleryBanner": {
-				"color": "#ffffff",
-				"theme": "light"
-		},
-		"engines": {
-				"vscode": "^1.0.0"
-		},
-		"categories": [
-				"Snippets",
-				"Other"
-		],
-		"contributes": {
-				"snippets": [
-						{
-								"language": "haskell",
-								"path": "./snippets/core.Haskell.json"
-						}
-				]
-		}
+	"name": "haskell-nsis",
+	"displayName": "Haskell NSIS",
+	"description": "Haskell snippets for NSIS",
+	"version": "1.1.0",
+	"publisher": "idleberg",
+	"license": "MIT",
+	"author": {
+		"name": "Jan T. Sott",
+		"url": "http://github.com/idleberg"
+	},
+	"scripts": {
+		"compile": "npm run build",
+		"build": "sharp resize 1024 1024 --input \"src/logo.svg\" --output resources/logo.png",
+		"dev": "npm run start",
+		"lint": "biome check",
+		"prepare": "lefthook install",
+		"publish:ovsx": "ovsx publish --no-dependencies",
+		"publish:vsce": "vsce publish --githubBranch main --no-dependencies",
+		"test": "echo \"no tests yet\" && exit 0",
+		"vscode:prepublish": "npm run build"
+	},
+	"keywords": [
+		"nsis",
+		"haskell-nsis"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/idleberg/vscode-haskell-nsis"
+	},
+	"homepage": "https://github.com/idleberg/vscode-haskell-nsis#readme",
+	"bugs": {
+		"url": "https://github.com/idleberg/vscode-haskell-nsis/issues"
+	},
+	"extensionDependencies": [
+		"idleberg.nsis"
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"@commitlint/cli": "^20.2.0",
+		"@commitlint/config-conventional": "^20.2.0",
+		"@idleberg/configs": "^0.4.1",
+		"@nsis/logo": "0.1.1",
+		"@types/micromatch": "^4.0.10",
+		"@types/node": "^24.7.0",
+		"@types/vscode": "1.85.0",
+		"@types/which": "^3.0.4",
+		"concurrently": "^9.2.1",
+		"ovsx": "^0.10.7",
+		"sharp-cli": "^5.2.0"
+	},
+	"icon": "resources/logo.png",
+	"galleryBanner": {
+		"color": "#ffffff",
+		"theme": "light"
+	},
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Snippets",
+		"Other"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "haskell",
+				"path": "./snippets/core.Haskell.json"
+			}
+		]
+	},
+	"packageManager": "pnpm@10.28.0+sha512.05df71d1421f21399e053fde567cea34d446fa02c76571441bfc1c7956e98e363088982d940465fd34480d4d90a0668bc12362f8aa88000a64e83d0b0e47be48"
 }
