@@ -540,6 +540,11 @@
     "leftLabelHTML": "<span class='keyword'>K</span>",
     "prefix": "writeRegExpandStr"
   },
+  "writeRegMultiStr": {
+    "body": "WriteRegMultiStr ${1:HKEY} \"${2:String}\" \"${3:String}\" \"${4:String}\"$0",
+    "leftLabelHTML": "<span class='keyword'>K</span>",
+    "prefix": "WriteRegMultiStr"
+  },
   "writeRegStr": {
     "body": "writeRegStr ${1:HKEY} \"${2:String}\" \"${3:String}\" \"${4:String}\"$0",
     "leftLabelHTML": "<span class='keyword'>K</span>",
