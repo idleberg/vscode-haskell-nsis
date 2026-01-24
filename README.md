@@ -1,12 +1,11 @@
-⚠️ **This package was once part of [vscode-nsis](https://github.com/idleberg/vscode-nsis), but has been outsourced to prepare its deprecation**
+⚠️ **This package was once part of [vscode-haskell-nsis](https://github.com/idleberg/vscode-haskell-nsis), but has been outsourced to prepare its deprecation**
 
 # nsL Assembler for Visual Studio Code
 
-[![The MIT License](https://flat.badgen.net/badge/license/MIT/orange)](http://opensource.org/licenses/MIT)
-[![GNU General Public License](https://flat.badgen.net/badge/license/GPL%20v2/orange)](http://www.gnu.org/licenses/gpl-2.0.html)
-[![GitHub](https://flat.badgen.net/github/release/idleberg/vscode-haskell-nsis)](https://github.com/idleberg/vscode-haskell-nsis/releases)
-[![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs-short/idleberg.haskell-nsis.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=idleberg.haskell-nsis)
-[![CI](https://img.shields.io/github/actions/workflow/status/idleberg/vscode-haskell-nsis/default.yml?style=flat-square)](https://github.com/idleberg/vscode-haskell-nsis/actions)
+[![Version](https://img.shields.io/github/v/release/idleberg/vscode-haskell-nsis?style=for-the-badge)](https://github.com/idleberg/vscode-haskell-nsis/releases)
+[![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/idleberg.haskell-nsis?style=for-the-badge&label=Marketplace)](https://marketplace.visualstudio.com/items?itemName=idleberg.haskell-nsis)
+[![Open VSX Downloads](https://img.shields.io/open-vsx/dt/idleberg/haskell-nsis?style=for-the-badge&label=Open%20VSX)](https://open-vsx.org/extension/idleberg/haskell-nsis)
+[![Build](https://img.shields.io/github/actions/workflow/status/idleberg/vscode-haskell-nsis/default.yml?style=for-the-badge)](https://github.com/idleberg/vscode-haskell-nsis/actions)
 
 Snippets for [Haskell NSIS](https://hackage.haskell.org/package/nsis)
 
