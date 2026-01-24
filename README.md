@@ -1,6 +1,4 @@
-⚠️ **This package was once part of [vscode-haskell-nsis](https://github.com/idleberg/vscode-haskell-nsis), but has been outsourced to prepare its deprecation**
-
-# nsL Assembler for Visual Studio Code
+# vscode-haskell-nsis
 
 [![Version](https://img.shields.io/github/v/release/idleberg/vscode-haskell-nsis?style=for-the-badge)](https://github.com/idleberg/vscode-haskell-nsis/releases)
 [![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/idleberg.haskell-nsis?style=for-the-badge&label=Marketplace)](https://marketplace.visualstudio.com/items?itemName=idleberg.haskell-nsis)
