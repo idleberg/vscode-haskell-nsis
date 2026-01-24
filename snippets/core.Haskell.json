@@ -90,6 +90,11 @@
     "leftLabelHTML": "<span class='keyword'>K</span>",
     "prefix": "execShell"
   },
+  "execShellWait": {
+    "body": "execShellWait [${1:ShowWindow}] \"${2:String}\"$0",
+    "leftLabelHTML": "<span class='keyword'>K</span>",
+    "prefix": "execShellWait"
+  },
   "execWait": {
     "body": "execWait \"${1:String}\"$0",
     "leftLabelHTML": "<span class='keyword'>K</span>",
