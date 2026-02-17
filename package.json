@@ -1,7 +1,7 @@
 {
 	"name": "haskell-nsis",
 	"displayName": "Haskell NSIS",
-	"description": "Haskell snippets for NSIS",
+	"description": "Snippets for Haskell NSIS",
 	"version": "2.0.0",
 	"publisher": "idleberg",
 	"license": "MIT",
