@@ -1,3 +1,5 @@
+# v2.0.2 [#](https://github.com/idleberg/vscode-haskell-nsis/releases/tag/v2.0.2)
+
 # v2.0.1 [#](https://github.com/idleberg/vscode-haskell-nsis/releases/tag/v2.0.1)
 
 - update logo
