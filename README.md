@@ -1,6 +1,6 @@
 # vscode-haskell-nsis
 
-[![License](https://img.shields.io/github/license/idleberg/vscode-applescript?color=blue&style=for-the-badge)](LICENSE)
+[![License](https://img.shields.io/github/license/idleberg/vscode-haskell-nsis?color=blue&style=for-the-badge)](LICENSE)
 [![Version](https://img.shields.io/github/v/release/idleberg/vscode-haskell-nsis?style=for-the-badge)](https://github.com/idleberg/vscode-haskell-nsis/releases)
 [![Build](https://img.shields.io/github/actions/workflow/status/idleberg/vscode-haskell-nsis/default.yml?style=for-the-badge)](https://github.com/idleberg/vscode-haskell-nsis/actions)
 
