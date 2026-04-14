@@ -1,8 +1,7 @@
 # vscode-haskell-nsis
 
+[![License](https://img.shields.io/github/license/idleberg/vscode-applescript?color=blue&style=for-the-badge)](LICENSE)
 [![Version](https://img.shields.io/github/v/release/idleberg/vscode-haskell-nsis?style=for-the-badge)](https://github.com/idleberg/vscode-haskell-nsis/releases)
-[![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/idleberg.haskell-nsis?style=for-the-badge&label=Marketplace)](https://marketplace.visualstudio.com/items?itemName=idleberg.haskell-nsis)
-[![Open VSX Downloads](https://img.shields.io/open-vsx/dt/idleberg/haskell-nsis?style=for-the-badge&label=Open%20VSX)](https://open-vsx.org/extension/idleberg/haskell-nsis)
 [![Build](https://img.shields.io/github/actions/workflow/status/idleberg/vscode-haskell-nsis/default.yml?style=for-the-badge)](https://github.com/idleberg/vscode-haskell-nsis/actions)
 
 Snippets for [Haskell NSIS](https://hackage.haskell.org/package/nsis)
